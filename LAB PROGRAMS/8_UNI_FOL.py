@@ -1,4 +1,4 @@
-mport re
+import re
 def getAttributes(expression):
     expression = expression.split("(")[1:]
     expression = "(".join(expression)
